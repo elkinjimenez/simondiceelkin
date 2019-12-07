@@ -9,8 +9,10 @@ switch (signo) {
         alert('Horóscopo de leo')
         break
     case 'Virgo':
-    case 'Virgo1':
         alert('Horóscopo de virgo')
+        break
+    case 'Géminis':
+        alert('Horóscopo de Géminis puedes buscarlo como Géminis o Geminis')
         break
 
 }
