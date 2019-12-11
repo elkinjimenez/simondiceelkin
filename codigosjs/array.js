@@ -1,21 +1,23 @@
-var elkin ={
+var elkin = {
     Nombre: 'Elkin',
     Altura: '172'
 }
 
-var sacha ={
-    Nombre: 'sacha',
-    Altura: '180'
+var sacha = {
+    Nombre: 'Sacha',
+    Altura: '160'
 }
 
-var omar ={
+var omar = {
     Nombre: 'Omar',
     Altura: '173'
 }
 
+const esAlta = persona => persona.Altura > 170
+
 var personas = [elkin, sacha, omar];
 
-for (var i =0; i<personas.length; i++){
-    var persona = personas[i];
-    console.log(`${persona.Nombre} mide ${persona.Altura} CM.`)
-}
+var altas = personas.filter(esAlta);
+
+console.log(altas);
+
