@@ -20,4 +20,3 @@ var personas = [elkin, sacha, omar];
 var altas = personas.filter(esAlta);
 
 console.log(altas);
-
